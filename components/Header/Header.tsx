@@ -15,21 +15,24 @@ export default function Header() {
           <Link href="/" className="hover:text-blue-700 transition">
             Home
           </Link>
+          <Link href="/services" className="hover:text-blue-700 transition">
+            Services
+          </Link>
           <Link href="/about" className="hover:text-blue-700 transition">
             About
           </Link>
-          <Link href="/services" className="hover:text-blue-700 transition">
-            Services
+          <Link href="/contact-us" className="hover:text-blue-700 transition">
+            Contact Us
           </Link>
         </nav>
 
         {/* Right: Button */}
         <div>
           <Link
-            href="/contact-us"
-            className="bg-blue-700 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition"
+            href="tel:4695550198"
+            className="text-blue-800 px-4 py-2 rounded-lg"
           >
-            Contact Us
+            Call Now: +1 (469) 577-0265
           </Link>
         </div>
       </div>

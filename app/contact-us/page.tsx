@@ -7,14 +7,24 @@ export default function ContactPage() {
     email: "",
     phone: "",
     message: "",
+    agree: false, // ✅ new field for checkbox
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const { name, value, type, checked } = e.target as HTMLInputElement;
+    setForm({ ...form, [name]: type === "checkbox" ? checked : value });
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!form.agree) {
+      alert("Please agree to receive text messages before submitting.");
+      return;
+    }
+
     console.log("Form Submitted:", form);
     alert("Thank you! We’ll reach out to you shortly.");
   };
@@ -41,7 +51,6 @@ export default function ContactPage() {
       {/* Contact Info + Form */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
-          
           {/* Left Side - Contact Info */}
           <div>
             <h2 className="text-3xl font-bold text-blue-700 mb-6">Get In Touch</h2>
@@ -121,6 +130,26 @@ export default function ContactPage() {
                   className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none"
                 ></textarea>
               </div>
+
+              {/* ✅ Checkbox Section */}
+              <div className="flex items-start space-x-3">
+                <input
+                  type="checkbox"
+                  name="agree"
+                  checked={form.agree}
+                  onChange={handleChange}
+                  className="mt-1 w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                  required
+                />
+                <label className="text-sm text-gray-600 leading-relaxed">
+                  By checking this box, you agree to receive text messages about marketing communications
+                  from AURA ASSET REALTY INC. You may reply STOP to opt-out at any time. Reply HELP to
+                  469-577-0265 for assistance. Message and data rates may apply. Message frequency will
+                  vary. This is our <a href="#" className="text-blue-600 underline">Privacy Policy</a> &{" "}
+                  <a href="#" className="text-blue-600 underline">Terms and Conditions</a>.
+                </label>
+              </div>
+
               <button
                 type="submit"
                 className="w-full bg-blue-700 text-white font-semibold py-3 rounded-lg hover:bg-blue-800 transition"
@@ -131,21 +160,23 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-{/* Google Map Section */}
-<section className="py-10">
-  <div className="max-w-6xl mx-auto px-6">
-    <div className="h-[600px] w-full rounded-2xl overflow-hidden shadow-lg">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.242366835925!2d-96.80160142444497!3d32.77666487366545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e991b5f34b5d1%3A0x8df36c2b516b2dd5!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1698741111111!5m2!1sen!2sus"
-        width="100%"
-        height="100%"
-        loading="lazy"
-        allowFullScreen
-        className="border-0"
-      ></iframe>
-    </div>
-  </div>
-</section>
+
+      {/* Google Map Section */}
+      <section className="py-10">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="h-[600px] w-full rounded-2xl overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7178.362933214408!2d-80.24987019999999!3d25.896404399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b021449775b3%3A0x3db61015cf7e1d18!2s3101%20NW%20134th%20St%20%234%2C%20Opa-locka%2C%20FL%2033054!5e0!3m2!1sen!2sus!4v1761806331783!5m2!1sen!2sus"
+              width="100%"
+              height="100%"
+              loading="lazy"
+              allowFullScreen
+              className="border-0"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 bg-blue-700 text-white text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Start Your Real Estate Journey?</h2>

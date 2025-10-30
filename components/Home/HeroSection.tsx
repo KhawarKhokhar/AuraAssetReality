@@ -9,7 +9,7 @@ export default function HeroSection() {
       className="relative bg-cover bg-center bg-no-repeat min-h-[80vh] flex items-center"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80')", // Texas luxury home image
+          "url('https://plus.unsplash.com/premium_photo-1661954372617-15780178eb2e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1760')", // Texas luxury home image
       }}
     >
       {/* Overlay */}
