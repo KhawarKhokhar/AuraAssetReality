@@ -38,7 +38,7 @@ export default function AboutPage() {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 text-center text-white px-6">
-          <h1 className="text-5xl font-bold mb-4">About Aura Assets</h1>
+          <h1 className="text-5xl font-bold mb-4">About Aura Asset</h1>
           <p className="text-lg text-gray-200">
             Trusted Texas Real Estate Professionals — Making Property Dreams Come True
           </p>

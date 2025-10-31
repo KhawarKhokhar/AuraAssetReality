@@ -58,7 +58,7 @@ function ContactPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "text-5xl font-bold mb-4",
-                                children: "Contact Aura Assets"
+                                children: "Contact Aura Asset"
                             }, void 0, false, {
                                 fileName: "[project]/app/contact-us/page.tsx",
                                 lineNumber: 44,
@@ -366,28 +366,16 @@ function ContactPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                     className: "text-sm text-gray-600 leading-relaxed",
                                                     children: [
-                                                        "By checking this box, you agree to receive text messages about marketing communications from AURA ASSET REALTY INC. You may reply STOP to opt-out at any time. Reply HELP to 469-577-0265 for assistance. Message and data rates may apply. Message frequency will vary. This is our ",
+                                                        'By clicking "Submit" I agree to receive emails, GENERAL COMMUNICATIONS & MARKETING text messages, and phone calls from AURA ASSEST REALITY INC., I also agree to the Terms of Use and Privacy Policy linked below. Reply STOP for STOP and HELP for help for more information. Message & data rates may apply. Message frequency varies. ',
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: "#",
+                                                            href: "privacy",
                                                             className: "text-blue-600 underline",
-                                                            children: "Privacy Policy"
+                                                            children: "Privacy Policy."
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contact-us/page.tsx",
                                                             lineNumber: 148,
-                                                            columnNumber: 37
-                                                        }, this),
-                                                        " &",
-                                                        " ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                            href: "#",
-                                                            className: "text-blue-600 underline",
-                                                            children: "Terms and Conditions"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/app/contact-us/page.tsx",
-                                                            lineNumber: 149,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        "."
+                                                            columnNumber: 47
+                                                        }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contact-us/page.tsx",
@@ -406,7 +394,7 @@ function ContactPage() {
                                             children: "Send Message"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contact-us/page.tsx",
-                                            lineNumber: 153,
+                                            lineNumber: 152,
                                             columnNumber: 15
                                         }, this)
                                     ]
@@ -447,22 +435,22 @@ function ContactPage() {
                             className: "border-0"
                         }, void 0, false, {
                             fileName: "[project]/app/contact-us/page.tsx",
-                            lineNumber: 168,
+                            lineNumber: 167,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/contact-us/page.tsx",
-                        lineNumber: 167,
+                        lineNumber: 166,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/contact-us/page.tsx",
-                    lineNumber: 166,
+                    lineNumber: 165,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/contact-us/page.tsx",
-                lineNumber: 165,
+                lineNumber: 164,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -473,7 +461,7 @@ function ContactPage() {
                         children: "Ready to Start Your Real Estate Journey?"
                     }, void 0, false, {
                         fileName: "[project]/app/contact-us/page.tsx",
-                        lineNumber: 182,
+                        lineNumber: 181,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -481,7 +469,7 @@ function ContactPage() {
                         children: "Let Aura Assets guide you — we make buying, selling, and investing in Texas real estate easy and stress-free."
                     }, void 0, false, {
                         fileName: "[project]/app/contact-us/page.tsx",
-                        lineNumber: 183,
+                        lineNumber: 182,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -490,13 +478,13 @@ function ContactPage() {
                         children: "Call Now: (469) 577-0265"
                     }, void 0, false, {
                         fileName: "[project]/app/contact-us/page.tsx",
-                        lineNumber: 186,
+                        lineNumber: 185,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/contact-us/page.tsx",
-                lineNumber: 181,
+                lineNumber: 180,
                 columnNumber: 7
             }, this)
         ]

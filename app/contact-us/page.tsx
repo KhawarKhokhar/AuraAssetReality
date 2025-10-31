@@ -41,7 +41,7 @@ export default function ContactPage() {
       >
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 text-center text-white px-6">
-          <h1 className="text-5xl font-bold mb-4">Contact Aura Assets</h1>
+          <h1 className="text-5xl font-bold mb-4">Contact Aura Asset</h1>
           <p className="text-lg text-gray-200 max-w-2xl mx-auto">
             We’re here to help you buy, sell, or invest in Texas real estate. Reach out today.
           </p>
@@ -142,11 +142,10 @@ export default function ContactPage() {
                   required
                 />
                 <label className="text-sm text-gray-600 leading-relaxed">
-                  By checking this box, you agree to receive text messages about marketing communications
-                  from AURA ASSET REALTY INC. You may reply STOP to opt-out at any time. Reply HELP to
-                  469-577-0265 for assistance. Message and data rates may apply. Message frequency will
-                  vary. This is our <a href="#" className="text-blue-600 underline">Privacy Policy</a> &{" "}
-                  <a href="#" className="text-blue-600 underline">Terms and Conditions</a>.
+                  By clicking "Submit" I agree to receive emails, GENERAL COMMUNICATIONS & MARKETING text messages,
+                   and phone calls from AURA ASSEST REALITY INC., I also agree to the Terms of Use and Privacy Policy linked below.
+                    Reply STOP for STOP and HELP for help for more information. Message & data rates may apply. 
+                    Message frequency varies. <a href="privacy" className="text-blue-600 underline">Privacy Policy.</a>
                 </label>
               </div>
 

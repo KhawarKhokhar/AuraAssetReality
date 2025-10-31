@@ -3,7 +3,7 @@ export function AboutSection() {
     <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         <div>
-          <h2 className="text-3xl font-bold mb-4 text-blue-700">About Aura Assets</h2>
+          <h2 className="text-3xl font-bold mb-4 text-blue-700">About Aura Asset</h2>
           <p className="text-gray-700 mb-4">
             Based in the heart of Texas, Aura Assets is your trusted partner in buying, selling, 
             and investing in real estate. With years of experience and deep local market insights, 

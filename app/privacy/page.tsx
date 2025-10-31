@@ -14,7 +14,7 @@ export default function PrivacyPage() {
         </p>
 
         <p className="mb-8 text-lg">
-          Welcome to <strong>Aura Assets</strong> (“we,” “our,” “us”). Your
+          Welcome to <strong>Aura Asset</strong> (“we,” “our,” “us”). Your
           privacy is extremely important to us. This Privacy Policy describes
           how we collect, use, disclose, and safeguard your personal
           information when you visit our website or use our real estate
@@ -136,6 +136,10 @@ export default function PrivacyPage() {
         <h2 className="text-2xl font-semibold mb-4">9. SMS Communication</h2>
         <p className="mb-8">
           By providing your phone number, you agree to receive text messages from Maverick Realty regarding property offers, updates, and other related communications. You may opt out at any time by replying “STOP.”
+          <br/><br/>
+          SMS Terms And Conditions  Upon messaging opt-in, the end user agrees to receive messages from AURA ASSESTS regarding GENERAL COMMUNICATIONS & MARKETING. End users can opt-out by replying STOP or request more information by replying HELP. Message frequency varies. Message and data rates may apply. If you need assistance or have questions about our SMS service, reply with "HELP" to any SMS message you receive, or contact our customer support team at (469) 577-0265.
+          <br/><br/>
+          No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties.
         </p>
 
         {/* 10. International Data Transfers */}
@@ -162,7 +166,7 @@ export default function PrivacyPage() {
         </p>
         <div className="mt-4 border-l-4 border-blue-600 pl-4">
           <p>
-            <strong>Aura Assets</strong>
+            <strong>Aura Asset</strong>
             <br />
             📍 3101 NW 134th St, Apt 4, Opa-locka, FL 33054
             <br />

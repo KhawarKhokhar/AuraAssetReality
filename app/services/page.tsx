@@ -91,7 +91,7 @@ export default function ServicesPage() {
       {/* Why Work With Us */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold text-blue-700 mb-10">Why Work With Aura Assets?</h2>
+          <h2 className="text-3xl font-bold text-blue-700 mb-10">Why Work With Aura Asset?</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {

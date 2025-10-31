@@ -9,7 +9,7 @@ export function WhyChooseUs() {
   return (
     <section className="py-16 bg-blue-50">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-blue-700 mb-10">Why Choose Aura Assets</h2>
+        <h2 className="text-3xl font-bold text-blue-700 mb-10">Why Choose Aura Asset</h2>
         <div className="grid md:grid-cols-4 gap-8">
           {points.map((p, i) => (
             <div key={i} className="bg-white p-6 rounded-xl shadow text-left">

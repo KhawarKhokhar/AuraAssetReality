@@ -7,7 +7,7 @@ export default function Footer() {
         {/* Brand Info */}
         <div>
           <h2 className="text-2xl font-bold text-blue-700 mb-3">
-            Aura <span className="text-black">Assets</span>
+            Aura <span className="text-black">Asset</span>
           </h2>
           <p className="text-sm">
             Helping Texans buy and sell properties with trust and transparency.  

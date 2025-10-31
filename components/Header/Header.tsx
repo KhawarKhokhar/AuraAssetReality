@@ -7,7 +7,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
         {/* Left: Logo */}
         <div className="text-2xl font-bold text-blue-700">
-          Aura <span className="text-gray-800">Assets</span>
+          Aura <span className="text-gray-800">Asset</span>
         </div>
 
         {/* Center: Menu */}

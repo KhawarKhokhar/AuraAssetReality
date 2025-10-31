@@ -45,7 +45,7 @@ function PrivacyPage() {
                     children: [
                         "Welcome to ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                            children: "Aura Assets"
+                            children: "Aura Asset"
                         }, void 0, false, {
                             fileName: "[project]/app/privacy/page.tsx",
                             lineNumber: 17,
@@ -427,8 +427,32 @@ function PrivacyPage() {
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "mb-8",
-                    children: "By providing your phone number, you agree to receive text messages from Maverick Realty regarding property offers, updates, and other related communications. You may opt out at any time by replying “STOP.”"
-                }, void 0, false, {
+                    children: [
+                        "By providing your phone number, you agree to receive text messages from Maverick Realty regarding property offers, updates, and other related communications. You may opt out at any time by replying “STOP.”",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            fileName: "[project]/app/privacy/page.tsx",
+                            lineNumber: 139,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            fileName: "[project]/app/privacy/page.tsx",
+                            lineNumber: 139,
+                            columnNumber: 16
+                        }, this),
+                        'SMS Terms And Conditions  Upon messaging opt-in, the end user agrees to receive messages from AURA ASSESTS regarding GENERAL COMMUNICATIONS & MARKETING. End users can opt-out by replying STOP or request more information by replying HELP. Message frequency varies. Message and data rates may apply. If you need assistance or have questions about our SMS service, reply with "HELP" to any SMS message you receive, or contact our customer support team at (469) 577-0265.',
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            fileName: "[project]/app/privacy/page.tsx",
+                            lineNumber: 141,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                            fileName: "[project]/app/privacy/page.tsx",
+                            lineNumber: 141,
+                            columnNumber: 16
+                        }, this),
+                        "No mobile information will be shared with third parties/affiliates for marketing/promotional purposes. All the above categories exclude text messaging originator opt-in data and consent; this information will not be shared with any third parties."
+                    ]
+                }, void 0, true, {
                     fileName: "[project]/app/privacy/page.tsx",
                     lineNumber: 137,
                     columnNumber: 9
@@ -438,7 +462,7 @@ function PrivacyPage() {
                     children: "10. International Data Transfers"
                 }, void 0, false, {
                     fileName: "[project]/app/privacy/page.tsx",
-                    lineNumber: 142,
+                    lineNumber: 146,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -446,7 +470,7 @@ function PrivacyPage() {
                     children: "As our operations are based in the United States, all data is stored and processed within the U.S. By using our website, you consent to this transfer and processing."
                 }, void 0, false, {
                     fileName: "[project]/app/privacy/page.tsx",
-                    lineNumber: 143,
+                    lineNumber: 147,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -454,7 +478,7 @@ function PrivacyPage() {
                     children: "11. Changes to This Privacy Policy"
                 }, void 0, false, {
                     fileName: "[project]/app/privacy/page.tsx",
-                    lineNumber: 150,
+                    lineNumber: 154,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -462,7 +486,7 @@ function PrivacyPage() {
                     children: "We may update this Privacy Policy from time to time. Changes will be reflected on this page with an updated “Effective Date.” We encourage you to review it periodically."
                 }, void 0, false, {
                     fileName: "[project]/app/privacy/page.tsx",
-                    lineNumber: 151,
+                    lineNumber: 155,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -470,14 +494,14 @@ function PrivacyPage() {
                     children: "12. Contact Us"
                 }, void 0, false, {
                     fileName: "[project]/app/privacy/page.tsx",
-                    lineNumber: 158,
+                    lineNumber: 162,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "If you have any questions, concerns, or requests regarding this Privacy Policy or how we handle your personal data, please contact us:"
                 }, void 0, false, {
                     fileName: "[project]/app/privacy/page.tsx",
-                    lineNumber: 159,
+                    lineNumber: 163,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -485,21 +509,21 @@ function PrivacyPage() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                children: "Aura Assets"
+                                children: "Aura Asset"
                             }, void 0, false, {
                                 fileName: "[project]/app/privacy/page.tsx",
-                                lineNumber: 165,
+                                lineNumber: 169,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/app/privacy/page.tsx",
-                                lineNumber: 166,
+                                lineNumber: 170,
                                 columnNumber: 13
                             }, this),
                             "📍 3101 NW 134th St, Apt 4, Opa-locka, FL 33054",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/app/privacy/page.tsx",
-                                lineNumber: 168,
+                                lineNumber: 172,
                                 columnNumber: 13
                             }, this),
                             " ",
@@ -509,24 +533,24 @@ function PrivacyPage() {
                                 children: "✉️ info@auraassetrealty.com"
                             }, void 0, false, {
                                 fileName: "[project]/app/privacy/page.tsx",
-                                lineNumber: 170,
+                                lineNumber: 174,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/app/privacy/page.tsx",
-                                lineNumber: 176,
+                                lineNumber: 180,
                                 columnNumber: 13
                             }, this),
                             "📞 (469) 577-0265"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/privacy/page.tsx",
-                        lineNumber: 164,
+                        lineNumber: 168,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/privacy/page.tsx",
-                    lineNumber: 163,
+                    lineNumber: 167,
                     columnNumber: 9
                 }, this)
             ]
